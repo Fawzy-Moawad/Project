@@ -1,0 +1,15 @@
+.font_1 {
+    color: red;
+    font-size: large;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+}
+.font_2 {
+    color: green;
+    font-size: medium;
+}
+.font_3 {
+    color: yellow;
+    font-size: medium;
+}
