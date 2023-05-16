@@ -1,4 +1,7 @@
-				/* Nav, Heading And Body Start*/
+/*-----------------------------------------------------------------------------------------
+SELECT THE NAV, BODY AND HEADING
+------------------------------------------------------------------------------------------*/
+
 
 a {color:#2f89b3;
 }
@@ -10,9 +13,9 @@ h1 {
     margin-left: 100px;
     text-shadow: 1px . 5px 4px rgba(0, 0, 0, 0.6);
 }	
-				/* Nav, Heading And Body End*/
-				
-				/*Gallery Contaniers Start*/
+/*-----------------------------------------------------------------------------------------
+SELECT THE CONTANIER 
+------------------------------------------------------------------------------------------*/
 .contanier {
     width: 1400px;
     height: 300px;px;
@@ -20,15 +23,120 @@ h1 {
     border: 2px; solid black;
     border-radius: 5%;
 }
-.contanier .gods:nth-child(-n+10) {
-    background-image: url("../images/symble.png");
-    background-position: center;
-    color: #fff;
+/*-----------------------------------------------------------------------------------------
+SELECT ALL CHILDS  IN THE ARRAY
+------------------------------------------------------------------------------------------*/
+.contanier .gods :nth-child(-n+10) {
+    background-image: url("")
+    color: #41d8bf;
     float: left;
-    width: 130px;
-    height: 300px;
+    width: 100px;
+    height: 150px;
     margin: 5px;
     border: 1px; solid black ;
     border-radius: 25%;
     cursor: pointer;
+    transition: transform .5s ease-in-out ;
 }
+
+/*-----------------------------------------------------------------------------------------
+SELECT ALL CHILDS PARAGRAPHS IN THE ARRAY
+------------------------------------------------------------------------------------------*/														
+.contanier .gods :nth-child(-n+10)  p {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 1.5em;
+font-weight: 900;
+text-align: center;
+margin: 0;
+text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8) ;
+}
+
+/*-----------------------------------------------------------------------------------------
+INDIVIDUALLY SELECT A CHILD IN THE ARRAY
+------------------------------------------------------------------------------------------*/
+.contanier .gods :nth-child(1) {
+	background: #4240ff;
+}
+.contanier .gods :nth-child(2) {
+	background: #4240ff;
+}
+.contanier .gods :nth-child(3) {
+	background: #4240ff;
+}
+.contanier .gods :nth-child(4) {
+	background: #4240ff;
+}
+.contanier .gods :nth-child(5) {
+	background: #4240ff;
+}
+.contanier .gods :nth-child(6) {
+	background: #4240ff;
+}
+.contanier .gods :nth-child(7) {
+	background: #4240ff;
+}
+.contanier .gods :nth-child(8) {
+	background: #4240ff;
+}
+.contanier .gods :nth-child(9) {
+	background: #4240ff;
+}
+.contanier .gods :nth-child(10) {
+	background: #4240ff;
+}
+
+/*-----------------------------------------------------------------------------------------
+		HOVER, TRANSLATE& TRANSFORM EFFECTS
+------------------------------------------------------------------------------------------*/
+.contanier .gods :nth-child(-n+10)  hover {
+	background-image: url("") ;
+	transform: scale (.5) ;
+	animation-name: gods_animation ;
+	animation-duration: 2.5s ;
+	animation-iteration-count: infinite ;
+	animation-timing-function: cubic-bezier(2.5, .2, .3, 2) ;
+}
+.contanier .gods :nth-child(1)  hover {
+	background: #13b4ff ;
+}
+.contanier .gods :nth-child(2)  hover {
+	background: #13b4ff ;
+}
+.contanier .gods :nth-child(3)  hover {
+	background: #13b4ff ;
+}
+.contanier .gods :nth-child(4)  hover {
+	background: #13b4ff ;
+}
+.contanier .gods :nth-child(5)  hover {
+	background: #13b4ff ;
+}
+.contanier .gods :nth-child(6)  hover {
+	background: #13b4ff ;
+}
+.contanier .gods :nth-child(7)  hover {
+	background: #13b4ff ;
+}
+.contanier .gods :nth-child(8)  hover {
+	background: #13b4ff ;
+}
+.contanier .gods :nth-child(9)  hover {
+	background: #13b4ff ;
+}
+.contanier .gods :nth-child(10)  hover {
+	background: #13b4ff ;
+}
+
+/*-----------------------------------------------------------------------------------------
+		ANIMATION EFFECT
+------------------------------------------------------------------------------------------*/
+@keyframes gods_animation {
+	0%, 100% {
+	transform: translateY (0px) ;
+	background-image: url("")
+	}
+	50% {
+		transform: translateY (300px) ;
+	}
+}
+
