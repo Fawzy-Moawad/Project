@@ -28,7 +28,7 @@
 		<div class="contanier">
 			<!--Osiris Start-->
 			
-			<div id="gods">
+			<div id="Osiris">
 				<p> Osiris <br> 𓅱𓋴𓇋𓂋𓇋𓋴 </p>
 			</div>
 		
@@ -36,7 +36,7 @@
 
 			<!--Isis Start-->
 		
-			<div id="gods">
+			<div id="Isis">
 				<p> Isis <br> 𓇋𓋴𓇋𓋴 </p>
 			</div>
 	
@@ -44,7 +44,7 @@
 
 			<!--Horus  Start-->
 		
-			<div id="gods">
+			<div id="Horus">
 				<p> Horus <br> 𓉔𓅱𓅱𓂋𓋴 </p>
 			</div>
 
@@ -52,7 +52,7 @@
 
 			<!--Seth  Start-->
 
-			<div id="gods">
+			<div id="Seth">
 				<p> Seth <br> 𓋴𓇌𓏏𓉔 </p>
 			</div>
 
@@ -60,7 +60,7 @@
 			
 			<!--Ptah  Start-->
 
-			<div id="gods">
+			<div id="Ptah">
 			<p> Ptah <br> 𓊪𓏏𓄿𓉔 </p>
 			</div>
 
@@ -68,7 +68,7 @@
 
 			<!--Re  Start-->
 
-			<div id="gods">
+			<div id="Re">
 			<p> Re <br> 𓂋𓇌 </p>
 			</div>
 
@@ -76,7 +76,7 @@
 
 			<!--Hathor  Start-->
 
-			<div id="gods">
+			<div id="Hathor">
 				<p> Hathor <br> 𓉔𓄿𓏏𓉔𓅱𓂋 </p>
 			</div>
 
@@ -84,7 +84,7 @@
 
 			<!--Anubis  Start-->
 
-			<div id="gods">
+			<div id="Anubis">
 			<p> Anubis <br> 𓄿𓈖𓅱𓃀𓇋𓋴 </p>
 			</div>
 
@@ -92,7 +92,7 @@
 			
 			<!--Thoth  Start-->
 
-			<div id="gods">
+			<div id="Thoth">
 			<p> Thoth <br> 𓏏𓉔𓅱𓏏𓉔 </p>
 			</div>
 
@@ -100,7 +100,7 @@
 
 			<!--Bastet  Start-->
 
-			<div id="gods">
+			<div id="Bastet">
 				<p> Bastet <br> 𓃀𓄿𓋴𓏏𓇌𓏏 </p>
 			</div>
 

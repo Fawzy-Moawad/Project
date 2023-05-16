@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color:blue;
 }
 h1 {
     color: rgba(8, 141, 165, 1);
@@ -7,18 +7,531 @@ h1 {
     text-shadow: 1px . 5px 4px rgba(0, 0, 0, 0.6);
 }
 .contanier {
-    width: 450px;
-    height: 450px;
+    width: 200px;
+    height: 200px;
     background-color: #faebd7;
     border: 2px; solid black;
     border-radius: 5%;
 }
-.contanier .squares:nth-child(-n+4) {
-    background-image: url(../images/icons_folder/icons2);
+.contanier .squares:nth-child(-n+10) {
+    background-image: url("");
     color: #fff;
     float: left;
     width: 100px;
     height: 100px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+				/* Nav, Heading And Body Start*/
+
+a {color:#2f89b3;
+}
+body {
+    background-color:#225763;
+}
+h1 {
+    color: #41d8bf;
+    margin-left: 100px;
+    text-shadow: 1px . 5px 4px rgba(0, 0, 0, 0.6);
+}	
+				/* Nav, Heading And Body End*/
+				
+				/*Gallery Contaniers Start*/
+.contanier {
+    width: 500px;
+    height:1100px;
+    background-color: #3b50b2;
+    border: 2px; solid black;
+    border-radius: 5%;
+}
+.contanier #Osiris {
+    background-image:url("../images/symble.png");
+    color:#41d8bf;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #body {
+    background-color:blue;
+}
+h1 {
+    color: rgba(8, 141, 165, 1);
+    margin-left: 100px;
+    text-shadow: 1px . 5px 4px rgba(0, 0, 0, 0.6);
+}
+.contanier {
+    width: 200px;
+    height: 200px;
+    background-color: #faebd7;
+    border: 2px; solid black;
+    border-radius: 5%;
+}
+.contanier .squares:nth-child(-n+10) {
+    background-image: url("");
+    color: #fff;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+				/* Nav, Heading And Body Start*/
+
+a {color:#2f89b3;
+}
+body {
+    background-color:#225763;
+}
+h1 {
+    color: #41d8bf;
+    margin-left: 100px;
+    text-shadow: 1px . 5px 4px rgba(0, 0, 0, 0.6);
+}	
+				/* Nav, Heading And Body End*/
+				
+				/*Gallery Contaniers Start*/
+.contanier {
+    width: 500px;
+    height:1100px;
+    background-color: #3b50b2;
+    border: 2px; solid black;
+    border-radius: 5%;
+}
+.contanier #Osiris {
+    background-image:url("../images/symble.png");
+    color:#41d8bf;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Isis {
+   background-image: url("../images/symble.png")
+    color: #41d8bf;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Horus {
+   background-image: url("../images/symble.png")
+    color: #41d8bf;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Seth {
+   background-image: url("../images/symble.png")
+    color: #41d8bf;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Ptah {
+    background-image: url("")
+    color:#41d8bf;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Re {
+   background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Hathor {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Anubis {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Thoth {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Bastet {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+				/*Gallery Contaniers End*/
+
+.contanier #Osiris_Temple {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Philae_Temple {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Edfu_Temple {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier # {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Temple_of_Ptah {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Heliopolis_Temple {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier # {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier # {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier # {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #City_Of_Bubastis {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+} {
+   background-image: url("../images/symble.png")
+    color: #41d8bf;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Horus {
+   background-image: url("../images/symble.png")
+    color: #41d8bf;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Seth {
+   background-image: url("../images/symble.png")
+    color: #41d8bf;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Ptah {
+    background-image: url("")
+    color:#41d8bf;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Re {
+   background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Hathor {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Anubis {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Thoth {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Bastet {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+				/*Gallery Contaniers End*/
+
+.contanier #Osiris_Temple {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Philae_Temple {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Edfu_Temple {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier # {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Temple_of_Ptah {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #Heliopolis_Temple {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier # {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier # {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier # {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.contanier #City_Of_Bubastis {
+    background-image: url("")
+    color: #41d8bf;
+    float: left;
+    width: 100px;
+    height: 150px;
     margin: 5px;
     border: 1px; solid black ;
     border-radius: 25%;
