@@ -21,7 +21,7 @@ h1 {
     border-radius: 5%;
 }
 .contanier .gods:nth-child(-n+10) {
-    background-image: url("./images/symble.png");
+    background-image: url("../images/symble.png");
     color: #fff;
     float: left;
     width: 130px;
