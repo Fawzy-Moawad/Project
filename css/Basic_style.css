@@ -14,18 +14,18 @@ h1 {
 				
 				/*Gallery Contaniers Start*/
 .contanier {
-    width: 500px;
-    height:1100px;
+    width: 1400px;
+    height: 300px;px;
     background-color: #3b50b2;
     border: 2px; solid black;
     border-radius: 5%;
 }
 .contanier .gods:nth-child(-n+10) {
-    background-image: url("../images/symble.png");
+    background-image: url("./images/symble.png");
     color: #fff;
     float: left;
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 300px;
     margin: 5px;
     border: 1px; solid black ;
     border-radius: 25%;
