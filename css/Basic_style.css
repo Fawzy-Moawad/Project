@@ -101,7 +101,7 @@ SELECT ALL CHILDS PARAGRAPHS IN THE ARRAY
 @keyframes gods_animation {
 	0%, 100% {
 	    transform: translateY (0px) ;
-	    background-image: url(""../images/icons2.png"")
+	    background-image: url("../images/icons2.png")
 	}
 	50% {
 		transform: translateY (300px) ;
