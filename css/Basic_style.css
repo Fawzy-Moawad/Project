@@ -1,15 +1,13 @@
 /*-----------------------------------------------------------------------------------------
-SELECT THE NAV, BODY AND HEADING
+SELECT BODY AND HEADING
 ------------------------------------------------------------------------------------------*/
-a {color:#2f89b3;
-}
 body {
     background-color:#225763;
 }
 h1 {
     color: #41d8bf;
     margin-left: 100px;
-    text-shadow: 1px . 5px 4px rgba(0, 0, 0, 0.6);
+    text-shadow: 1px , 5px 4px rgba(0, 0, 0, 0.6);
 }
 
 /*-----------------------------------------------------------------------------------------
@@ -44,20 +42,20 @@ SELECT ALL CHILDS  IN THE ARRAY
 /*-----------------------------------------------------------------------------------------
 SELECT ALL CHILDS PARAGRAPHS IN THE ARRAY
 ------------------------------------------------------------------------------------------*/														
-.contanier .gods :nth-child(-n+10)  p {
-color:#bcdbdf;
-font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-font-size: 1.5em;
-font-weight: 900;
-text-align: center;
-margin: 0;
-text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8) ;
+.gods :nth-child(-n+10) p{
+    color:#f16821;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8) ;
 }
 
 /*-----------------------------------------------------------------------------------------
 		HOVER, TRANSLATE& TRANSFORM EFFECTS
 ------------------------------------------------------------------------------------------*/
-.contanier .gods :nth-child(-n+10) hover {
+.gods :nth-child(-n+10) :hover {
 	background-image: url("../images/icons2.png") ;
     background-color:#fcffc1 ;
 	transform: scale (.5) ;
@@ -72,11 +70,10 @@ text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8) ;
 ------------------------------------------------------------------------------------------*/
 @keyframes gods_animation {
 	0%, 100% {
-	transform: translateY (0px) ;
+	transform: translate Y (0px) ;
 	background-image: url("../images/icons2.png") ;
 	}
 	50% {
-		transform: translateY (300px) ;
+		transform: translate Y (300px) ;
 	}
 }
-
