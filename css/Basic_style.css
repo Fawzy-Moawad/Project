@@ -42,7 +42,7 @@ SELECT ALL CHILDS  IN THE ARRAY
 /*-----------------------------------------------------------------------------------------
 SELECT ALL CHILDS PARAGRAPHS IN THE ARRAY
 ------------------------------------------------------------------------------------------*/														
-.gods :nth-child(-n+10) p{
+.gods:nth-child(-n+10) p {
     color:#f16821;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1em;
@@ -55,14 +55,44 @@ SELECT ALL CHILDS PARAGRAPHS IN THE ARRAY
 /*-----------------------------------------------------------------------------------------
 		HOVER, TRANSLATE& TRANSFORM EFFECTS
 ------------------------------------------------------------------------------------------*/
-.gods :nth-child(-n+10) :hover {
+.contanier .gods:nth-child(-n+10) :hover {
 	background-image: url("../images/icons2.png") ;
     background-color:#fcffc1 ;
 	transform: scale (.5) ;
-	animation-name: gods_animation ;
+	animation-name: gods_animation;
 	animation-duration: 2.5s ;
 	animation-iteration-count: infinite ;
 	animation-timing-function: cubic-bezier(2.5, .2, .3, 2) ;
+}
+.contanier .gods:nth-child(1) :hover {
+        background-color: #febe7e ;
+}
+.contanier .gods:nth-child(2) :hover {
+    background-color: #ec7263 ;
+}
+.contanier .gods:nth-child(3) :hover {
+    background-color: #a75265 ;
+}
+.contanier .gods:nth-child(4) :hover {
+    background-color: #57385c ;
+}
+.contanier .gods:nth-child(5) :hover {
+    background-color: #febe7e ;
+}
+.contanier .gods:nth-child(6) :hover {
+    background-color: #ec7263 ;
+}
+.contanier .gods:nth-child(7) :hover {
+    background-color: #a75265 ;
+}
+.contanier .gods:nth-child(8) :hover {
+    background-color: #57385c ;
+}
+.contanier .gods:nth-child(9) :hover {
+    background-color: #febe7e ;
+}
+.contanier .gods:nth-child(10) :hover {
+    background-color: #ec7263 ;
 }
 
 /*-----------------------------------------------------------------------------------------
@@ -70,10 +100,10 @@ SELECT ALL CHILDS PARAGRAPHS IN THE ARRAY
 ------------------------------------------------------------------------------------------*/
 @keyframes gods_animation {
 	0%, 100% {
-	transform: translate Y (0px) ;
-	background-image: url("../images/icons2.png") ;
+	    transform: translateY (0px) ;
+	    background-image: url(""../images/icons2.png"")
 	}
 	50% {
-		transform: translate Y (300px) ;
+		transform: translateY (300px) ;
 	}
 }
