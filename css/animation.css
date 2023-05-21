@@ -43,7 +43,7 @@ p {
 .photo {
     position: relative;
     line-height: 0;
-    margin-bottom: 2cm;
+    margin-bottom: 2em;
     overflow: hidden;
     border-radius: 8px;
     padding: 1px;

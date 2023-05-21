@@ -198,7 +198,7 @@ HOME SECTION STYLES
         margin: 0 auto;
         color: #13161b;
         font-weight: 500;
-        font-size: 1.3cm;
+        font-size: 1.3em;
         letter-spacing: 0pt;
         word-spacing: 0pt;
     }
@@ -208,7 +208,7 @@ HOME SECTION STYLES
         margin: 0 auto;
         color: #13161b;
         font-weight: 900;
-        font-size: 1.5cm;
+        font-size: 1.5em;
         font-variant: small-caps;
         letter-spacing: 4pt;
         word-spacing: .3pt;
@@ -243,7 +243,7 @@ HOME SECTION STYLES
         border-right: 2px solid #424549;
         border-bottom: 2px solid #424549;
         border-left: 1px solid #090b0d;
-        margin: 10px 1cm;
+        margin: 10px 1em;
         border-radius: 7px;
         background: #13161b;
         box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, .0.15);
