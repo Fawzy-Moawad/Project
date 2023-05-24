@@ -86,7 +86,8 @@ p {
 .photo-overlay {
     opacity: 0;
     transition: opacity .5s;
-    border-radius: 10px;cursor: pointer;
+    border-radius: 10px;
+    cursor: pointer;
 }
 .photo-overlay p {
     width: 100%;
